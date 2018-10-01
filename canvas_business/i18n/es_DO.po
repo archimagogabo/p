@@ -1,0 +1,174 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* canvas_business
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-01 19:58+0000\n"
+"PO-Revision-Date: 2018-07-01 19:58+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>Channels</b>"
+msgstr "<b>Channels</b>"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>Cost Structure</b>"
+msgstr "<b>Cost Structure</b>"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>Income flows</b>"
+msgstr "<b>Income flows</b>"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>Key Activities</b>"
+msgstr "<b>Key Activities</b>"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>Key Resources</b>"
+msgstr "<b>Key Resources</b>"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>Partners Key</b>"
+msgstr "<b>Partners Key</b>"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>Relationship with Customers</b>"
+msgstr "<b>Relationship with Customers</b>"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>Segments of</b>"
+msgstr "<b>Segments of</b>"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>Value proposal</b>"
+msgstr "<b>Value proposal</b>"
+
+#. module: canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "<b>customers</b>"
+msgstr "<b>customers</b>"
+
+#. module: canvas_business
+#: model:ir.actions.act_window,name:canvas_business.action_scanvas_business
+#: model:ir.ui.menu,name:canvas_business.canvas_business
+#: model:ir.ui.view,arch_db:canvas_business.view_form_canvas_business
+msgid "Canvas Business"
+msgstr "Canvas Business"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_canales
+msgid "Channels"
+msgstr "Canales"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_estructura_de_coste
+msgid "Cost Structure"
+msgstr "Cost Structure"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_segmentos_de_clientes
+msgid "Customer Segments"
+msgstr "Customer Segments"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_flujos_de_ingresos
+msgid "Income flows"
+msgstr "Income flows"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_actividades_clave
+msgid "Key Activities"
+msgstr "Key Activities"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_recursos_claves
+msgid "Key Resources"
+msgstr "Key Resources"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_partners_clave
+msgid "Partners Clave"
+msgstr "Partners Clave"
+
+#. module: canvas_business
+#: model:ir.actions.act_window,help:canvas_business.action_scanvas_business
+msgid "Press to create new Record"
+msgstr "Presione para crear un nuevo registro"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_relacion_con_clientes
+msgid "Relationship with Customers"
+msgstr "Relación con los clientes"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_texto
+msgid "Text"
+msgstr "Texto"
+
+#. module: canvas_business
+#: model:ir.model.fields,field_description:canvas_business.field_canvas_business_propuesta_de_valor
+msgid "Value proposal"
+msgstr "Propuesta de valor"
+
+#. module: canvas_business
+#: model:ir.model,name:canvas_business.model_canvas_business
+msgid "canvas business"
+msgstr "lienzo de negocios"
+
