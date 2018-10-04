@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <odoo>
+    <data>
+    <record id="view_form_canvas_business" model="ir.ui.view">
+             <field name="name">view.form.canvas.business</field>
+             <field name="model">canvas.business</field>
+             <field name="arch" type="xml">
+                <form string="Canvas Business">
+                  <sheet>
+                      <group>
+                      <p><field name="name" required="1"></field></p>
+                      </group>
+
+                    <table width="100%" cellpadding="4" cellspacing="0">
+	<tr valign="top">
+		<td width="20%" bgcolor="#ffff99" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p align="center"><b>Partners Key</b></p>
+		</td>
+		<td width="20%" bgcolor="#ff99ff" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p align="center"><b>Key Activities</b></p>
+		</td>
+		<td colspan="2" bgcolor="#ccffff" width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p align="center"><b>Value proposal</b></p>
+		</td>
+		<td width="20%" bgcolor="#ffcc99" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p align="center"><b>Relationship with Customers</b></p>
+		</td>
+		<td width="20%" bgcolor="#ccff99" style="border: 1px solid #000000; padding: 0.1cm">
+			<p align="center"><b>Segments of</b></p>
+			<p align="center"><b>customers</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="3" bgcolor="#ffff99" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p style="font-weight: normal"><field name="partners_clave"></field></p>
+		</td>
+		<td width="20%" bgcolor="#ff99ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p style="font-weight: normal"><field name="actividades_clave"></field></p>
+		</td>
+		<td rowspan="3" bgcolor="#ccffff" colspan="2" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p style="font-weight: normal"><field name="propuesta_de_valor"></field></p>
+		</td>
+		<td width="20%" bgcolor="#ffcc99" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p><field name="relacion_con_clientes"></field></p>
+		</td>
+		<td rowspan="3" bgcolor="#ccff99" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+			<p><field name="segmentos_de_clientes"></field></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="20%"  bgcolor="#aea79f" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p><b>Key Resources</b></p>
+		</td>
+		<td width="20%" bgcolor="#ff8080" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p><b>Channels</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="20%" bgcolor="#aea79f" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p><field name="recursos_claves"></field></p>
+		</td>
+		<td bgcolor="#ff8080" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p><field name="canales"></field></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td colspan="3" width="50%" bgcolor="#99ccff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p><b>Cost Structure</b></p>
+		</td>
+		<td colspan="3" width="50%" bgcolor="#ffd320" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+			<p><b>Income flows</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td colspan="3" width="50%" bgcolor="#99ccff" style="min-height=150px; border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+			<p><field name="estructura_de_coste"></field></p>
+		</td>
+		<td colspan="3" width="50%" bgcolor="#ffd320" style="min-height=150px; border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+			<p><field name="flujos_de_ingresos"></field></p>
+		</td>
+	</tr>
+</table>
+<group>
+                      <p><field name="texto" widget="html" options="{'style-inline': true}"></field></p>
+                    </group>
+                   </sheet>
+                </form>
+            </field>
+    </record>
+
+    <record id="view_tree_canvas_business" model="ir.ui.view">
+             <field name="name">view.tree.canvas.business</field>
+             <field name="model">canvas.business</field>
+             <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                </tree>
+            </field>
+    </record>
+
+    <record id="action_scanvas_business" model="ir.actions.act_window">
+            <field name="name">Canvas Business</field>
+            <field name="res_model">canvas.business</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Press to create new Record</p>
+           </field>
+    </record>
+
+    <menuitem id="canvas_business"
+        name="Canvas Business"
+        parent="sale.menu_sale_config"
+        sequence="34"
+        action="action_scanvas_business" />
+
+     </data>
+</odoo>
